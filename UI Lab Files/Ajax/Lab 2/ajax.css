@@ -1,0 +1,20 @@
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    text-align: center;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 200px; 
+}
+
+.details{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
