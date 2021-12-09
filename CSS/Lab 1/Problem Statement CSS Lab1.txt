@@ -1,0 +1,3 @@
+Use internal css to:
+	1) add text color as blue for list elements
+	2) add font-size of 20 to the content within <p> .

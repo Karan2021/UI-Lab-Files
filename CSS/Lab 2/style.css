@@ -1,0 +1,30 @@
+#heading{
+    background-color: gray;
+
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0 ;
+    
+}
+
+#parentdiv{
+    background-color: white;
+    
+}
+
+#buttons{          
+    margin-left: 0px;
+ 
+}
+
+button{
+    margin: 5px;
+}
+
+.navigation{
+    margin: 10px;
+    color: rgb(6, 105, 185);
+}
+img{
+    width: 70%;
+}
