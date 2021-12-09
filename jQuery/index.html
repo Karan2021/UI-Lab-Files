@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARWALA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body >
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1" style="color: green; margin-left: 20px;">CARWALA</span>
+        <span style="color:green; margin-right: 20px;">PRATIAN</span>
+      </nav>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4">
+           <H4>FEATURES</H4>
+           <h6 style="color: black;">Brands</h6>
+           <div>
+            <input type="checkbox" name="brands" value="hyundai" onclick="brandsclick()">
+            <label for="hyundai" style="color: black;">Hyundai</label>
+          </div>
+          
+          <div>
+            <input type="checkbox"  name="brands" value="kia" onclick="brandsclick()">
+            <label for="kia" style="color: black;">Kia</label>
+          </div>
+          
+          <div>
+            <input type="checkbox"  name="brands" value="mahindra" onclick="brandsclick()">
+            <label for="mahindra" style="color: black;">Mahindra</label>
+          </div>
+          
+          <h6 style="color: black;">Price Range</h6>
+          <p id="slidevalue"></p>
+          <input type="range" id="slideinput" name="price" min="0" max="1000000" value="1000000" onclick="slide()">
+
+
+        <h6 style="color: black;">Fuel type</h6>
+        <div>
+            <input type="radio" name="fuel" value="petrol" onclick="fuelclick()">
+            <label for="petrol" style="color: black;">Petrol</label>
+          </div>
+          
+          <div>
+            <input type="radio"  name="fuel" value="diesel" onclick="fuelclick()">
+            <label for="diesel" style="color: black;">Diesel</label>
+          </div>
+        </div>
+        <div class="col-md-6" id="cardata">
+            <H4>CARS</H4>
+        </div>
+        <div class="col-md-2">
+            <H4>ADS</H4>
+            <div id="ads"></div>
+        
+        </div>
+        </div>
+
+    </div>
+    
+    <script src="./jquery-3.6.0.min.js"></script>
+    
+    <script src="./cars.js"></script>
+</body>
+</html>

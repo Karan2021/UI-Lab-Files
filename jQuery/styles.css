@@ -1,0 +1,15 @@
+img{
+    width:150px;
+    height:150px;
+    margin:20px;
+}
+
+h4{
+    text-align: center;
+}
+body{
+    background-image: url('./car.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

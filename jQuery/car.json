@@ -1,0 +1,30 @@
+[
+{ "name":"Hyundai Creta",
+  "model":"2020",
+  "price":983000,
+  "usageinfo":"5 months",
+  "brand":"hyundai",
+  "fueltype":"Petrol",
+  "image":"assets/hyundai.jpeg"
+},
+
+{ "name":"Kia Seltos",
+    "model":"2018",
+    "price":989000,
+    "usageinfo":"2 years",
+  "brand":"kia",
+  "fueltype":"Petrol",
+  "image":"assets/kia.jpg"
+  },
+
+{ "name":"Mahindra Thar",
+    "model":"2017",
+    "price":980000,
+    "usageinfo":"3 years",
+    "brand":"mahindra",
+    "fueltype":"Petrol",
+    "image":"assets/thar.jpeg"
+  }
+
+]
+
