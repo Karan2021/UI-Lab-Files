@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <link rel="stylesheet" href="emp.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div style=" width : 40%; " class="container maindiv">
+        <div>
+            <h2>
+                Enter employee details
+            </h2>
+        </div>
+        <hr>
+        <form action="">            
+            <div class="form-group row commondiv">                              
+                <Label class="col-sm-3 col-form-label" >Name :  </Label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control " placeholder="Enter Name" name="fullName" id="fullName" required>
+                </div>               
+            </div>
+            <div class="form-group row commondiv">   
+                <Label class="col-sm-3 col-form-label" >Employee Id :  </Label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control id" placeholder="Enter Employee ID" name="empCode" id="id" required>
+                </div>
+            </div>
+
+            <div class="form-group row commondiv">   
+                <Label class="col-sm-3 col-form-label" >Role :  </Label>
+                <div class="col-sm-9">
+                <select style="width : 50%;" name="RoleName" id="role" required>
+                    <option value="Junior Software Developer">Junior Software Developer</option>
+                    <option value="Senior Software Developer">Senior Software Developer</option>
+                    <option value="Junior Quality Analyst">Junior Quality Analyst</option>
+                    <option value="Senior Quality Analyst">Senior Quality Analyst</option>
+                    <option value="Business Analyst">Business Analyst</option>
+                    <option value="Team Lead">Team Lead</option>
+                    <option value="Manager">Manager</option>
+                </select>
+            
+            </div>
+            <div class="form-group row commondiv">   
+                <Label class="col-sm-5 col-form-label" >Date of joining :  </Label>
+                <div class="col-sm-7">              
+                    <input type="date" placeholder="DOJ" id="doj" name="DOJ" >
+                </div>
+            </div>
+            <div>
+                <input onclick="saveData()" class="btn btn-success" type="submit" value="Submit">
+            </div>        
+        </form>
+    </div>
+
+<hr>
+</div>
+
+<div style="margin-top: 10px;" class="row container maindiv">
+    <div class="col-4 pt-2"></div>
+    <div class="col-2">
+        <input id="search" type="text" name="search" placeholder="Search Employees" ">
+    </div>
+  <div class="col-4 pt-2">
+    <button style="margin-top: 2%;" class="btn btn-primary" onclick="showData()">Search</button>
+  </div>
+    
+</div>
+
+    
+<div style="width: 70%; border: 1px solid black;" class="container maindiv"> 
+    <div style="background-color: blueviolet; left: 50%; justify-content: center;"  class="row">
+        <div class="col-3">Full Name</div>
+        <div class="col-3">Employee ID</div>
+        <div class="col-3">Role Name</div>
+        <div class="col-3">DOJ</div>
+    </div>  
+    <div id="showemp">
+
+    </div>
+</div>
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+.commondiv{
+    padding: 10px;
+}
+
+button{
+    width: 100%; 
+    padding: 0px;
+}
+
+#fields{
+   border: 0px;
+   border-bottom: 1px solid gray;
+}
+
+.maindiv{
+    text-align: center;     
+    border: 1px solid gray; 
+    margin-top: 5%; 
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
